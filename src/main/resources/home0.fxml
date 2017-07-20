@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.91" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUIClasses.HomeController">
+   <children>
+      <StackPane prefHeight="368.0" prefWidth="602.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <VBox>
+               <children>
+                  <HBox alignment="CENTER" spacing="20.0">
+                     <children>
+                        <ImageView fitHeight="47.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@Images/Esi-Sba_Logo.jpg" />
+                           </image>
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                        </ImageView>
+                        <Label fx:id="nomDeBase" prefHeight="29.0" prefWidth="407.0" text="Base de données relative a l'école supèrieur d'informatique" textFill="#838c83">
+                           <font>
+                              <Font name="Bodoni MT Black" size="11.0" />
+                           </font>
+                        </Label>
+                        <VBox maxHeight="-Infinity" maxWidth="-Infinity" spacing="20.0">
+                           <children>
+                              <ImageView fx:id="about" fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/about.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="help" fitHeight="20.0" fitWidth="20.0" focusTraversable="true" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/help.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView fx:id="settings" fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Images/settings.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                        </VBox>
+                     </children>
+                     <padding>
+                        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+                     </padding>
+                  </HBox>
+                  <AnchorPane prefHeight="239.0" prefWidth="602.0">
+                     <children>
+                        <FlowPane hgap="20.0" layoutY="30.0" prefHeight="198.0" prefWidth="237.0" vgap="10.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="100.0" AnchorPane.rightAnchor="265.0" AnchorPane.topAnchor="30.0" />
+                     </children>
+                  </AnchorPane>
+               </children>
+            </VBox>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
