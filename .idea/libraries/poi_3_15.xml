@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="poi-3.15">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/poi-3.15/poi-3.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-3.15/poi-examples-3.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-3.15/poi-excelant-3.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-3.15/poi-ooxml-3.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-3.15/poi-ooxml-schemas-3.15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/poi-3.15/poi-scratchpad-3.15.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
